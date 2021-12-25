@@ -1,3 +1,5 @@
+//to start the server run this command: npm run server
+
 const express = require('express');
 const { ConnectionStates } = require('mongoose');
 const connectDB = require('./config/db');
@@ -6,6 +8,9 @@ const app = express();
 
 // Connect Database
 connectDB();
+
+// Init Middleware
+app.use(express.json({extended: false}));
 
 app.get('/', (req, res) => res.send('API Running'));
 
