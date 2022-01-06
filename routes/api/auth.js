@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const auth = require('../../middleware/auth');
 const config = require('config');
 const jwt = require('jsonwebtoken');
-const { check, validationResult } = require('express-validator');
+const { check, validationResult } = require('express-validator'); //('express-validator')
 //this was depracated: 'express-validator/check' --- if issues arise, replace above with this.
 const User = require('../../models/User');
 
