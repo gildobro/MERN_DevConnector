@@ -6,7 +6,8 @@ Hosted using Heroku. Feel free to visit the website here: https://whispering-spi
 Please find below some screenshots of the website.
 
 Index Page:
-![image](https://user-images.githubusercontent.com/60789242/149472435-ebbab274-5523-44ee-952f-2b8990c27e14.png)
+
+![image](https://user-images.githubusercontent.com/60789242/149472642-fd2cf4ca-c3c9-47dd-8ef8-443984222880.png)
 
 
 
